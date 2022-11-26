@@ -1,0 +1,26 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Caderno Inteligente",
+    "price": 15.00
+}
+
+###
+
+GET http://localhost:4002/products 
+
+###
+GET http://localhost:4002/products/ecd60e7e-1b83-4c0a-a8f9-85c78be230a3
+
+###
+PUT http://localhost:4002/products/6eb5e64d-b1d5-4834-a243-1b02176bdbb0
+Content-Type: application/json
+
+{
+    "name": "Caderno Inteligente capa Ordem Paranormal",
+    "price": 10.00
+}
+
+###
+DELETE http://localhost:4002/products/
